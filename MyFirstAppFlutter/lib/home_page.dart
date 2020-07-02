@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
 
   void _clicarOnTap() {
     setState(() {
-      _calc = _calc++ * 2; 
+      _calc = _calc * 2; 
     });
   }
 
